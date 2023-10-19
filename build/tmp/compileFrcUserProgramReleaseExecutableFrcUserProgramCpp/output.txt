@@ -1,0 +1,4 @@
+See file:///home/caleb/Robot2024/build/tmp/compileFrcUserProgramReleaseExecutableFrcUserProgramCpp/output.txt for all output for compileFrcUserProgramReleaseExecutableFrcUserProgramCpp.
+compiling Robot.cxx successful.
+
+Finished compileFrcUserProgramReleaseExecutableFrcUserProgramCpp, see full log file:///home/caleb/Robot2024/build/tmp/compileFrcUserProgramReleaseExecutableFrcUserProgramCpp/output.txt.
