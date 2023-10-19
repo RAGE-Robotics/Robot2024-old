@@ -2,9 +2,8 @@
 
 #include "Constants.hxx"
 
-Kinematics::Kinematics()
+Kinematics::Kinematics() : m_matA(8, 3)
 {
-    m_matA = Eigen::MatrixXd(6, 8);
     m_matA(0, 0) = 1;
     m_matA(0, 2) = -Constants::CHASSIS_WIDTH / 2;
     m_matA(1, 1) = 1;
@@ -21,16 +20,9 @@ Kinematics::Kinematics()
     m_matA(6, 2) = Constants::CHASSIS_WIDTH / 2;
     m_matA(7, 1) = 1;
     m_matA(7, 2) = -Constants::CHASSIS_WIDTH / 2;
-
-    m_matAInverse = m_matA.inverse();
 }
 
-Eigen::VectorXd Kinematics::Inverse(Eigen::Vector3d vec)
+Eigen::VectorXd Kinematics::Inverse(Eigen::Vector3d vecChassisState)
 {
-    return m_matA * vec;
-}
-
-Eigen::Vector3d Kinematics::Forward(Eigen::VectorXd vec)
-{
-    return m_matAInverse * vec;
+    return m_matA * vecChassisState;
 }
