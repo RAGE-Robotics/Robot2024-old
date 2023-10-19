@@ -4,10 +4,6 @@ Robot::Robot()
 {
 }
 
-Robot::~Robot()
-{
-}
-
 void Robot::RobotInit()
 {
 }

@@ -6,7 +6,6 @@ class Robot : public frc::TimedRobot
 {
 public:
     Robot();
-    ~Robot();
 
     void RobotInit() override;
     void RobotPeriodic() override;
