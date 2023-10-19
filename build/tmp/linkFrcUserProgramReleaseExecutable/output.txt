@@ -1,4 +1,0 @@
-See file:///home/caleb/Robot2024/build/tmp/linkFrcUserProgramReleaseExecutable/output.txt for all output for linkFrcUserProgramReleaseExecutable.
-linking frcUserProgram successful.
-
-Finished linkFrcUserProgramReleaseExecutable, see full log file:///home/caleb/Robot2024/build/tmp/linkFrcUserProgramReleaseExecutable/output.txt.
